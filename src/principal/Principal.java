@@ -9,6 +9,8 @@ public class Principal {
         Musica musica = new Musica();
         musica.setTitulo("Amar não é pecado");
         musica.setArtista("Luan Santana");
+        musica.setAlbum("2022");
+
 
         for (int i =0; i < 1000; i++){
             musica.reproduz();
